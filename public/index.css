@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+/* Reset css */
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+#title h1 {
+  font-size: 3vh;
+  font-weight: 800;
+}
+
+#header {
+  padding: 10px;
+}
+#blue {
+  color: #3678ce;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#container-main {
+  display: flex;
+  width: 85%;
+  height: 80%;
+}
+#divs {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#left-title {
+  font-size: clamp(50px, 4vw, 5vw);
+  font-weight: 800;
+}
+#divs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+img {
+  max-width: 100%;
+}
+
+#invest-container {
+  
+  display: flex;
+  justify-content: center;
+}
+#width {
+  width: 85%;
+}
+
+#investing {
+  
+  font-size: clamp(16px, 4vw, 40px);
+  font-weight: 800;
+}
+#button-container {
+  padding-bottom: 5rem;
+  padding-top: 3rem;
+}
+  
+#binance {
+
+  background-color: #fcd535;
+  color: black;
+  border: none;
+  font-size: 26px;
+  font-weight: 600;
+  height: 40px;
+  width: 180px;
+	text-decoration: none;	
+	border-radius: 50px;
+	display: inline-block;
+	border: none;
+  color: #fff !important;
+	transition: all 0.4s ease 0s;
+}
+
+#binance:hover {
+	box-shadow: 0 -3px #694AF4;
+	transition: all 0.4s ease 0s;
+}
+
+#tag{
+  display: inline-block;     
+  position: relative;    
+  z-index: 1;     
+  padding: 1em;     
+  margin: -1em; 
+}
+#root {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 1024px) {
+	#container-main{
+		display: block;
+	}
+  #divs{
+		width: 100%;
+	}
+	#left-title{
+    
+		padding: 2rem 0;
+	}
+  #investing{
+    padding-top: 1rem;
+  }
+  }
